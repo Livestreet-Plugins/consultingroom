@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plugin>
+  <name>
+    <lang name="default">Consulting room</lang>
+    </name>
+  <author>
+    <lang name="default">pshentsoff</lang>
+    </author>
+  <homepage>http://pshentsoff.ru</homepage>
+  <version>0.2.10</version>
+  <requires>
+    <livestreet>1.x</livestreet>
+    <plugins>
+      </plugins>
+    <system>
+      <php>5.3</php>
+      </system>
+    </requires>
+  <description>
+    <lang name="default">Description, doctor's private information, answer questions, online consultation, invite to online groups, blog, helping desk.</lang>
+    <lang name="russian">Описание, информация о докторе, вопрос-ответ, онлайн-консультирование, запись в группу онлайн-занятий, блог, справочная информация.</lang>
+    </description>
+  <settings>{consultingroom/admin}</settings>
+  <delegate>
+    <module></module>
+    <action></action>
+    <template></template>
+    <entity></entity>
+    </delegate>
+  </plugin>

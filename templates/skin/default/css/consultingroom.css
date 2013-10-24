@@ -1,0 +1,219 @@
+.consultingroom-float-left {
+    float: left;
+}
+.consultingroom-align-right {
+    text-align: right;
+}
+div.consultinroom {
+    width: 650px;
+}
+
+div.consultingroom-name {
+    width: 645px;
+}
+
+.consultingroom-foto {
+    float: left;
+    margin: 0 10px 10px 0;
+}
+
+.consultingroom-foto img {
+    width: 250px;
+    max-height: 400px;
+}
+
+.consultingroom-info {
+    width: 645px;
+}
+
+.consultingroom-about {
+    width: 645px;
+    height: 170px;
+}
+.consultingroom-about p {
+}
+
+.consultingroom-phone {
+    width: 645px;
+}
+
+.consultingroom-mail {
+    width: 645px;
+}
+
+.consultingroom-buttons {
+    text-align: right;
+}
+
+ul.consultingroom-tabs {
+    width: 645px;
+    margin: 10px;
+    list-style: none;
+}
+
+ul.consultingroom-tabs li {
+    float: left;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 31px;
+}
+
+ul.consultingroom-tabs li a {
+    text-decoration: none;
+    color: #aaa;
+    display: block;
+    font-size: 1.0em;
+    padding: 0 10px;
+    border-bottom:#fff 1px solid;
+}
+ul.consultingroom-tabs li a:hover {
+    color: #000;
+    border-bottom:#fff 1px solid;
+}
+html ul.consultingroom-tabs li.active {
+    background: #fff;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    border-bottom: #fff 1px solid;
+}
+.consultingroom-data {
+    overflow: hidden;
+    clear: both;
+    float: left;
+    width: 625px;
+    margin: 0 10px;
+    border-top:#eee 1px solid;
+}
+.consultingroom-data-container {
+    padding:0;
+}
+.consultingroom-news-date {
+    width: 80px;
+}
+table.consultingroom-edit td {
+    padding: 5px;
+    vertical-align: top;
+}
+textarea.consultingroom-edit {
+    width: 350px;
+    height: 150px;
+}
+.consultingroom-communication-edit {
+    width: 605px;
+    height: 150px;
+}
+.consultingroom-communication-published {
+    text-align: right;
+    /*width: 605px;*/
+    padding-left: 480px;
+}
+.consultingroom-menu {
+    padding: 15px;
+}
+.consultingroom-profile {
+
+}
+.consultingroom-profile-avatar {
+    padding: 15px;
+}
+.consultingroom-profile-foto img {
+    width: 300px;
+    max-height: 400px;
+}
+.consultingroom-profile-data {
+    float: left;
+}
+.consultingroom-profile-data table tbody tr td input {
+}
+.consultingroom-profile-data table tbody tr td textarea {
+    width: 340px;
+    height: 220px;
+}
+.consultingroom-admin-specialists table tr td {
+    vertical-align: top;
+    padding: 10px;
+}
+.consultingroom-admin-specialists label {
+    font-size: small;
+}
+.consultingroom-admin-specialists select {
+    width: 300px;
+}
+.consultingroom-admin-specialists textarea {
+    width: 515px;
+    height: 125px;
+}
+form.consultingroom-communication-form {
+    font-size: small;
+}
+form.consultingroom-communication-form label {
+    float: left;
+    width: 15em;
+    text-align: right;
+    padding-right: 10px;
+}
+form.consultingroom-communication-form input {
+    float: left;
+}
+form.consultingroom-communication-form p {
+    clear: both;
+}
+form.consultingroom-communication-form textarea {
+    width: 605px;
+    height: 150px;
+}
+label.error {
+    float: none;
+    color: red;
+    padding-left: .5em;
+    vertical-align: top;
+    text-align: left;
+}
+div.consultingroom-message {
+    margin: 30px auto;
+    width: 650px;
+    text-align: center;
+}
+div.consultingroom-message span {
+    background-color: #fbeed5;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #2a85a0;
+    color: #2a85a0;
+    font-size: 12pt;
+    font-weight: bold;
+    overflow: hidden;
+    padding: 10px 15px;
+    text-align: center;
+    min-height: 40px;
+    width: 625px;
+}
+div.consultingroom-group-request-container {
+    position: relative;
+}
+div.consultingroom-group-request {
+    position: absolute;
+    z-index: 1000;
+    top: 0px;
+    left: 0px;
+    width: 450px;
+    min-height: 170px;
+    background-color: #eaf2f8;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid #2a85a0;
+    color: #2a85a0;
+    overflow: hidden;
+    padding: 10px 15px;
+    display: none;
+}
+
+div.consultingroom-group-request form.consultingroom-communication-form input {
+    float: none;
+}
+div.consultingroom-group-request form.consultingroom-communication-form label.error {
+    text-align: center;
+    width: 100%;
+}
